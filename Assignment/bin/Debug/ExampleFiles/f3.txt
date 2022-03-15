@@ -1,0 +1,29 @@
+Task 1: Individual work
+Scenario: Text Analysis
+You have been asked to provide code to analyse small text files which you should download from blackboard.
+Requirements
+You should produce a C Sharp console-based application (Console App (.NET Framework) – C#).  The application will allow a user to select a single plain text file from a list of at least 4 different files (placed in the solution folder) by entering an option when prompted in the console.
+User must then be prompted with 5 options/functionalities:
+1.	Message: Enter a word and see how many times it occurs in the file.
+2.	Message: Enter a single character and see how many times it occurs in the file.
+3.	Message: Get the number of lines in the file.
+4.	Message: Get the number of words in the file.
+5.	Message: Get the number of characters in the file.
+Application functionality:
+1.	Your application must stay running while user is going through the various options.
+2.	Analysis must output disregarding the case sensitivity.
+C Sharp Expertise
+1.	You should create a new class called TextAnalysis. The class should contain the methods and variables required to implement the requirements.
+2.	Your application should include the following language features as a minimum:
+a.	Typed variables
+b.	Loops
+c.	Conditions
+d.	Arrays and collections (including a Dictionary), Lists
+e.	Methods
+f.	Classes and objects 
+3.	Your code should be commented and include suitable names for variables, methods etc  Your code should be readable and easy to follow.
+Advanced feature
+4.	You should add an advanced feature to your application.  For example
+a.	You can identify the most frequently occurring word, the longest word
+b.	You can write a new file containing the text in reverse order
+c.	You could provide further text analysis or a comparison between different text files.

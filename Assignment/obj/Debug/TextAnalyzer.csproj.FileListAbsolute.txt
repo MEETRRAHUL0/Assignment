@@ -1,0 +1,10 @@
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\bin\Debug\TestReading.exe.config
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\bin\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\bin\Debug\TestReading.pdb
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\obj\Debug\TextAnalyzer.csprojAssemblyReference.cache
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\obj\Debug\TextAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\obj\Debug\TextAnalyzer.csproj.CopyComplete
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\obj\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\TextAnalyzer\TestReading\obj\Debug\TestReading.pdb

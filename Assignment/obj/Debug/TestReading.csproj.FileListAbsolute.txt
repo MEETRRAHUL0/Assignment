@@ -1,0 +1,10 @@
+C:\Users\Ei11912\source\repos\TestReading\TestReading\obj\Debug\TestReading.csprojAssemblyReference.cache
+C:\Users\Ei11912\source\repos\TestReading\TestReading\obj\Debug\TestReading.csproj.CoreCompileInputs.cache
+C:\Users\Ei11912\source\repos\TestReading\TestReading\bin\Debug\TestReading.exe.config
+C:\Users\Ei11912\source\repos\TestReading\TestReading\bin\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\TestReading\TestReading\bin\Debug\TestReading.pdb
+C:\Users\Ei11912\source\repos\TestReading\TestReading\obj\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\TestReading\TestReading\obj\Debug\TestReading.pdb
+C:\Users\Ei11912\source\repos\TestReading\TestReading\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ei11912\source\repos\TestReading\TestReading\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ei11912\source\repos\TestReading\TestReading\obj\Debug\TestReading.csproj.CopyComplete

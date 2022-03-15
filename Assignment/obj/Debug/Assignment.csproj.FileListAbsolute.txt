@@ -1,0 +1,10 @@
+C:\Users\Ei11912\source\repos\Assignment\Assignment\bin\Debug\TestReading.exe.config
+C:\Users\Ei11912\source\repos\Assignment\Assignment\bin\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\Assignment\Assignment\bin\Debug\TestReading.pdb
+C:\Users\Ei11912\source\repos\Assignment\Assignment\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ei11912\source\repos\Assignment\Assignment\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ei11912\source\repos\Assignment\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\Ei11912\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Ei11912\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\Ei11912\source\repos\Assignment\Assignment\obj\Debug\TestReading.exe
+C:\Users\Ei11912\source\repos\Assignment\Assignment\obj\Debug\TestReading.pdb
