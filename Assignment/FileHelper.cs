@@ -27,7 +27,8 @@ namespace Assignment
             ");
 
             var fileOption = UserFunc.ReadValue("Select Options:").ToLower();
-
+            string[] specialChar = new string[] { @"\","|","!","#","$","%","&","/","(",")", "=", "?", "»", "«", "@", "£", "§", "€", "{", "}", ".", "-", "–", ";", "'", "<", ">", "_", "," };
+            var escapeSequence = new char[] { '\r', '\n', '\t' };
 
             if (fileOption == "9" || fileOption == "exit") return true;
 
@@ -54,20 +55,20 @@ namespace Assignment
                     Console.WriteLine("Invalid char.\n");
             }
             else if (SelectedOption == 3) { Console.WriteLine($"Count : {txtfile.Split('\r').Length}\n"); }
-            else if (SelectedOption == 4) { Console.WriteLine($"Count : {txtfile.Split(' ').Count()}\n"); }
-            else if (SelectedOption == 5) { Console.WriteLine($"Count : {txtfile.ToArray().Where(c => !char.IsWhiteSpace(c)).Select(s => s).Count()}\nChar Count with Space: {txtfile.ToCharArray().Count()}\n"); }
+            else if (SelectedOption == 4) { Console.WriteLine($"Count : {txtfile.Split(new char[] { ' ', '\r', '\n', '\t' }).Where(w => !string.IsNullOrEmpty(w) && !specialChar.Contains(w)).Count()}\n"); }
+            else if (SelectedOption == 5) { Console.WriteLine($"Count : {txtfile.ToArray().Where(c => !char.IsWhiteSpace(c)).Select(s => s).Count()}\nChar Count with Space: {txtfile.ToCharArray().Where(w=> !escapeSequence.Contains(w)).Count()}\n"); }
             else if (SelectedOption == 6)
             {
-                var counts = Regex.Replace(txtfile, @"[^0-9a-zA-Z ]+", "").Split(' ')
+                var counts = Regex.Replace(txtfile, @"[^0-9a-zA-Z\n\r\t/ ]+", "").Split(new char[] { ' ', '\r', '\n', '\t','/' })
                              .GroupBy(g => g)
                              .OrderByDescending(g => g.Count())
-                             .Select(w => new { w.Key, count = w.Count(), Length = w.Key.Length })
-                             .Where(w => w.count > 1).Take(5).ToList();
+                             .Select(w => new { w.Key, Count = w.Count(), w.Key.Length })
+                             .Where(w => !string.IsNullOrEmpty(w.Key)).ToList();
 
                 var count = 1;
 
                 Console.WriteLine($"Word and its frequency:\n");
-                counts.ForEach(w => Console.WriteLine($"{count++}: {w.Key} => {w.count} Times"));
+                counts.Where(w => w.Count > 1).Take(5).ToList().ForEach(w => Console.WriteLine($"{count++}: {w.Key} => {w.Count} Times"));
 
                 var longestWord = counts?.OrderByDescending(w => w.Length)?.FirstOrDefault();
                 Console.WriteLine($"\nlongest word is [{longestWord?.Key}] with Length {longestWord?.Length}\n");
