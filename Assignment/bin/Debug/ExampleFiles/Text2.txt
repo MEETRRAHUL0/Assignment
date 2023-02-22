@@ -1,0 +1,4 @@
+Please make sure you are logging in with the email address that you registered with. If this does not work,
+sign out of your Guardian account by going to the Guardian homepage and selecting ‘My account’ and then ‘Sign out’.
+
+Then sign back in with your email address and password. If that doesn’t resolve the issue, contact us.
